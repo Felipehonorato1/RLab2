@@ -6,10 +6,13 @@
 
 class Restaurante{
     public:
+    Restaurante();
     double CalculaTotal();
     void setMesaC(Mesas d, int pos);
-    void Adiciona()
+    void Adiciona(int m,Pedido c);
 
     private:
-    Mesas m[50];
+    Mesas mRest[50];
 };
+
+#endif
